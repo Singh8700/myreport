@@ -1,0 +1,151 @@
+body {
+    font-size: 15pt;
+}
+img{
+  width:100%;
+height: 100%;
+}
+.bg-black{
+  background: black
+}
+.font-div{
+ width: 33.3%;
+ overflow: hidden;
+}
+.mainCard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+ .card1{ 
+   width: 320px;
+   margin-top: 3vh;
+  padding: 5px;
+  border: 2px solid black;
+  transform: scale(0.8);
+  background: rgba(0,0,0,0.5);
+  transition: all .2s linear;
+}
+.card1:hover{
+  transform: scale(1);
+  transition: all .2s linear;
+  background: rgba(0,0,0,0.3);
+  box-shadow: 5px 5px 5px gray;
+}
+.card1 .st{
+ background: red;
+}
+.flipCard{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 5%;
+  padding-top: 10px;
+}
+.flip-card{
+        width:250px;
+        height: 300px;
+        perspective: 550px;
+        margin: auto;
+        padding-top: 20px;
+      }
+      .flip-card-inner{
+        position: relative;
+        width:100%;
+        height:100%;
+        text-align: cebter;
+        transition: transform 0.9s;
+        transform-style: preserve-3d; 
+        
+      }
+      #webhost{
+        background-image: url('img/webhosting.png');
+        background-repeat:none;
+        background-size: 100% 100%;
+        background-blend-mode: multiply;
+      }
+      #php{
+        background-image: url('img/php.png');
+        background-repeat:none;
+        background-size: 100% 100%;
+        background-blend-mode: multiply;
+      }
+      #data{
+        background-image: url('img/database-png-25440.png');
+        background-repeat:none;
+        background-size: 100% 100%;
+        background-blend-mode: multiply;
+      }
+      #web{
+       background-image: url('img/domain-png-25454.png');
+        background-repeat:none;
+        background-size: 100% 100%;
+        background-blend-mode: multiply;
+      }
+      .fan{
+        font-size: 22px;
+      }
+      .flip-card:hover .flip-card-inner{
+        
+        transform:rotateY(180deg);
+      }
+      .flip-card-frontside,.flip-card-backside{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        border-radius: 20px;
+        
+      }
+      .flip-card-backside{
+        background: lightblue;
+        box-shadow: 2px 3px 4px gray;
+       transform: rotateY(180deg);
+      }
+      .flip-card-frontside{
+        background:rgba(255,150,250,0.9);
+        text-align: center;
+        box-shadow: 1px 2px 4px gray;
+      }
+      .flip-card-frontside h2{
+      margin-top: 25%;
+       
+        font-weight: bold;
+        text-shadow: 2px 3px 4px black;
+        font-size: 32px;
+        color: #fff;
+      }
+      .flip-card-frontside .footer{
+        margin-top:30%;
+        font-size: 22px;
+        font-weight: bold;
+        text-shadow: 2px 3px 4px black;
+        color: #fff;
+        
+      }
+      .flip-card-backside > *{
+        text-align: center;
+        color: #fff;
+        text-shadow: 0px 2px 4px black;
+        border-radius: 30px;
+        
+      }
+      .flip-card-backside .bg-dark{
+        box-shadow: 2px 4px 4px black;
+       width:95%;
+       font-size: 11px;
+       margin: auto;
+       margin-top: 10px;
+      }
+      #highlight{
+        font-size: 18px;
+        font-weight: bold;
+      }
+      
+/*//responcive //*/
+@media(min-width:1198px){
+  .font-div{
+    padding:42.5px 0px!important;
+    height: 8vh!important;
+  }
+}
