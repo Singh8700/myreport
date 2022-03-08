@@ -5,17 +5,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <link rel="stylesheet" href="style.css">
  
 <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
 <header>
-  <div class="container" data-aos="zoom-in">
+  <div class="container">
     <div class="row no-gutters">
-      <div class="col-lg-5 col-md-5" data-aos="fade-left">
+      <div class="col-lg-5 col-md-5">
         <img src="img/pic.png" alt="My Picture is here" width="200px">
       </div>
       
@@ -142,7 +145,7 @@
 
     <!--card create now-->
     
-        <div class="flip-card" data-aos="zoom-out-top">
+        <div class="flip-card" data-aos="fade-in-left">
         <div class="flip-card-inner">
           <div class="flip-card-frontside" id="webhost">
             <h2>Web Hosting</h2>
@@ -153,8 +156,8 @@
           </div>
           <div class="flip-card-backside p-2">
             <p>I only learned to do web design in 2018 but I learned to do web hosting on my own</p>
-              <p class="bg-dark text-white p-2 st ">As a Web Hoster</p>
-              <p class="bg-dark text-white p-2 st ">As a Back_End_Developer</p>
+              <p class="bg-dark text-white p-2 ">As a Web Hoster</p>
+              <p class="bg-dark text-white p-2  ">As a Back_End_Developer</p>
             </div>
             
           </div>
@@ -181,7 +184,7 @@
           </div>
         </div>
         <!--card 3rd start herer--->
-          <div class="flip-card" data-aos="fade-out-left">
+          <div class="flip-card" data-aos="fade-in-top">
         <div class="flip-card-inner">
           <div class="flip-card-frontside" id="data">
             <h2>Data Base <br>(SQL)</h2>
@@ -192,15 +195,15 @@
           </div>
           <div class="flip-card-backside p-2">
             <p>I learned the data validation while creating the login form and also connecting to the servers</p>
-              <p class="bg-dark text-white p-2 st ">As a Back_End_Developer</p>
-              <p class="bg-dark text-white p-2 st">As a User Data collected</p> 
+              <p class="bg-dark text-white p-2">As a Back_End_Developer</p>
+              <p class="bg-dark text-white p-2 ">As a User Data collected</p> 
               
           </div>
             
           </div>
         </div>
       <!--4th card herer-->
-            <div class="flip-card" data-aos="fade-bottom">
+            <div class="flip-card" data-aos="fade-out-left">
         <div class="flip-card-inner">
           <div class="flip-card-frontside" id="web">
             <h2>Web learner</h2>
@@ -227,14 +230,19 @@
   <!--Projects-->
   <!--start project-->
   <div class="collapse" id="project">
-   <div class="p-5 text-wgite bg-warning">
-     <h2>my Portfilo</h2>
-     <p>This site is my all projects Image hera</p>
+   <div class="p-5 text-white bg-warning">
+     <h2>My Portfilo</h2>
+     <p>Hi,<br> I design websites for small projects. You can scroll down to see my smaller projects.</p>
    </div>
    <!--card body-->
    <div class="container">
-     
-    <div class="card col-lg-6 col-md-6 d-flex" data-toggle="collapse" data-target="#student">
+     <!-- about me-->
+     <div class="bg-black p-2">
+        <h2>All sites is here 👇</h2>
+      <p>You will find all the web designs made by me in this section, you can see the designs made by me below
+      </p>
+     </div>
+   <!-- <div class="card col-lg-6 col-md-6 d-flex" data-toggle="collapse" data-target="#student">
      <img src="img/graduated.png" alt="graduated" class="fa-2x">
     </div>
     
@@ -244,17 +252,137 @@
     <div class="card col-lg-12 col-md-12" data-toggle="collapse" data-target="#contact">
       <i class="fa fa-phone fa-3x text-center text-white bg-dark">Contact</i>
       
-    </div>
+    </div>-->
    
    </div>
 
    <!--end of project code-->
          <!--graduated card start here-->
-      <div class="card bg-success" id="student">
+     <div class="collapse d-flex cardWeb" id="student">
+       
      
+      <!--web sire here-->
+        <div class="flip-cardImg">
+         <div class="flipInner">
+           <div class="flipCard-Img">
+          <p class="img"></p>
+           </div>
+           <div class="flipCard-Back">
+               <p>
+               I have creat a Very simple & very Easy Web Site.
+              </p>
+              <p class="bg-dark text-white p-2">As a Front_End_Developer</p>
+              <p class="bg-dark text-white p-2">As a Back_End_Developer</p>
+           </div>
+         </div>
+        </div>
+      <!--2nd web site -->
+       <div class="flip-cardImg">
+         <div class="flipInner">
+           <div class="flipCard-Img">
+            <p class="img2"></p>
+           </div>
+           <div class="flipCard-Back">
+               <p>
+               I have create same little web site as learner & host online also create a Data base (like gallery ).
+              </p>
+              <p class="bg-dark text-white p-2">As a Front_End_Developer</p>
+              <p class="bg-dark text-white p-2">As a Back_End_Developer</p>
+           </div>
+         </div>
+        </div>
+        <!--3rd wed site-->
+     <div class="flip-cardImg">
+        <div class="flipInner">
+          <div class="flipCard-Img">
+            <p class="img3"></p>
+           </div>
+           <div class="flipCard-Back">
+                <p>
+                I have create same little web site as learner & host online also create a Data base (like gallery ).
+               </p>
+               <p class="bg-dark text-white p-2">As a Front_End_Developer
+               </p>
+               <p class="bg-dark text-white p-2">As a Back_End_Developer
+               </p>
+          </div>
+        </div>
       </div>
+      <!--4th web site here -->
+     <!-- https://mylearn99.000webhostapp.com/all html files/all site/index.php-->
+     <div class="flip-cardImg">
+        <div class="flipInner">
+          <div class="flipCard-Img">
+            <p class="img4"></p>
+           </div>
+           <div class="flipCard-Back">
+                <p>
+                I have create same little web site as learner & host online also create a Data base (like gallery ).
+               </p>
+               <p class="bg-dark text-white p-2">As a Front_End_Developer
+               </p>
+               <p class="bg-dark text-white p-2">As a Back_End_Developer
+               </p>
+          </div>
+        </div>
+      </div> 
+      <!--5th web site here-->
+     <div class="flip-cardImg">
+       <div class="flipInner">
+         <div class="flipCard-Img">
+           <p class="img5"></p>
+         </div>
+         <div class="flipCard-Back">
+           <p>
+             I have create same little web site as learner & host online also create a Data base (like gallery ).
+           </p>
+           <p class="bg-dark text-white p-2">As a Front_End_Developer
+           </p>
+           <p class="bg-dark text-white p-2">As a Back_End_Developer
+           </p>
+         </div>
+       </div>
+     </div>
+     <!--6th web site here-->
+     <div class="flip-cardImg">
+       <div class="flipInner">
+         <div class="flipCard-Img">
+           <p class="img6"></p>
+          
+             
+           
+         </div>
+         <div class="flipCard-Back">
+           <p>
+             I have create same little web site as learner & host online also create a Data base (like gallery ).
+           </p>
+           <p class="bg-dark text-white p-2">As a Front_End_Developer
+           </p>
+           <p class="bg-dark text-white p-2">As a Back_End_Developer
+           </p>
+         </div>
+       </div>
+     </div>
+      <!--end of web site -->
+    </div>
+    <br>
+    <!--end of web card-->
+    <!--start the contact info-->
+    <div class="container">
+      <div class="card col-lg-12 col-md-12" data-toggle="collapse" data-target="#contact">
+        <i class="fa fa-phone fa-3x text-center text-white bg-dark">
+          Contact
+        </i>
+      
+      </div>
+    </div>
+    <br>
+    <!--end of content info-->
+      <!--contact form is here-->
+        <div class="collapse bg-black text-center" id="contact">
+            hdj
+          </div>
    <!--end-->
-
     </div>
 
   </div>
@@ -262,23 +390,30 @@
 </div>
 
 
-<div class="container" data-aos="zoom-in-center">
+<div class="container" >
   
-<footer class="p-5 bg-dark text-center text-white">
-
+<footer class="p-5 bg-dark text-center text-white" data-aos="zoom-in"
+     data-aos-anchor-placement="center-center">
   <button class="btn text-white bg-black fan" onclick="myfunc()">
     <i class="fa fa-close fa-2x "></i>
       close
   </button>
 </footer>
 </div>
+
  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+ 
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="jQuery.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
   <script>
   AOS.init();
+  </script>
+  <script>
     $('.font-div').click(function(){
       $('.collapse').collapse('hide');
     })
