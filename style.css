@@ -249,7 +249,7 @@ height: 100%;
 /*//responcive //*/
 @media(min-width:1024px){
   .divInfo{
-    height:100%!important;
+    height:15vh!important;
     width:100%!important;
 }
   .font-div{
