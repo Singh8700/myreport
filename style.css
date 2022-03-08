@@ -249,8 +249,12 @@ height: 100%;
       }
 /*//responcive //*/
 @media(min-width:1024px){
+  .divInfo{
+    height:100%!important;
+    width:100%!important;
   .font-div{
     padding:42.5px 0px!important;
-    height:100%!important
+    height:100%!important;
   }
+
 }
