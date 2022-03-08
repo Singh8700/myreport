@@ -15,7 +15,6 @@ height: 100%;
  overflow: hidden;
  font-family: 'system-ui', Georgia, 'Times New Roman', Times, serif;
  text-transform: uppercase;
- height:100%;
 }
 .mainCard{
   display: flex;
