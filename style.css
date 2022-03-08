@@ -250,7 +250,7 @@ height: 100%;
 @media(min-width:1024px){
   .divInfo{
     height:15vh!important;
-    width:100%!important;
+    border:2px solid red;
 }
   .font-div{
     padding:42.5px 0px!important;
