@@ -258,3 +258,8 @@ text-align:center;
   }
 
 }
+@media screen (min-width:1280px{
+ .font-div{
+    padding:5vh 0px!important;
+   }
+}
