@@ -13,6 +13,8 @@ height: 100%;
 .font-div{
  width: 33.3%;
  overflow: hidden;
+text-wrap: wrap;
+text-align:center;
  font-family: 'system-ui', Georgia, 'Times New Roman', Times, serif;
  text-transform: uppercase;
 }
@@ -249,7 +251,6 @@ height: 100%;
 /*//responcive //*/
 @media(min-width:1024px){
   .divInfo{
-    height:15vh!important;
     border:2px solid red;
 }
   .font-div{
