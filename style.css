@@ -12,7 +12,7 @@ height: 100%;
 }
 .font-div{
  width: 33.3%;
- overflow: hidden;
+ 
 text-wrap: wrap;
 text-align:center;
  font-family: 'system-ui', Georgia, 'Times New Roman', Times, serif;
