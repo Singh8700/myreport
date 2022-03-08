@@ -248,9 +248,9 @@ height: 100%;
         flex-wrap: wrap;
       }
 /*//responcive //*/
-@media(min-width:1198px){
+@media(min-width:1024px){
   .font-div{
     padding:42.5px 0px!important;
-    
+    height:100%!important
   }
 }
