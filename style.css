@@ -249,6 +249,11 @@ text-align:center;
         flex-wrap: wrap;
       }
 /*//responcive //*/
+@media(max-width:720px){
+ body{
+ font-size:62.5%;
+}
+}
 @media(min-width:1024px){
 
   .font-div{
