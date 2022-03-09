@@ -247,6 +247,9 @@ height: 100%;
       .cardWeb{
         flex-wrap: wrap;
       }
+.dbs{
+margin-top:-5%;
+}
 /*//responcive //*/
 @media (min-width:1080px){
   .font-div{
