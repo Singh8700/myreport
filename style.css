@@ -251,14 +251,14 @@ height: 100%;
 margin-top:-8%;
 }
 /*//responcive //*/
-@media (min-width:1080px){
+@media (min-width:1024px){
   .font-div{
     padding:5vh 0px!important;
    
   }
  
 }
-@media(min-width:1024px){
+@media(min-width:990px){
   .large > *{
     padding-top: 15vh!important;
   }
