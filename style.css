@@ -1,12 +1,12 @@
 body {
     font-size: 15pt;
     font-family: fantasy;
-}
+}/*
 img{
   width:100%;
 
-}
-.icon{
+}*/
+.large < *{
 height:100vh;
  padding:50px;
 }
