@@ -1,11 +1,11 @@
 body {
     font-size: 15pt;
     font-family: fantasy;
-}/*
+}
 img{
   width:100%;
-
-}*/
+object-fit:cover;
+}
 .large < *{
 height:100vh;
  padding:50px;
