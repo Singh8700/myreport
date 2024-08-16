@@ -1,16 +1,13 @@
 body {
     font-size: 15pt;
-    font-family: fantasy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 img{
   width:100%;
 height:100%;
 object-fit:cover;
 }
-.large < *{
-height:100vh;
- padding:50px;
-}
+
 .bg-black{
   background: black;
 }
@@ -45,6 +42,30 @@ height:10vh;
 .card1 .st{
  background: red;
 }
+.heading{
+  position: relative;
+  top:0;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sub{
+  position: relative;
+  top:0;
+  text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;}
+  .icons > div{
+    height: 205px;
+    display: FLEX;
+    align-items: CENTER;
+    justify-content: center;
+    flex-direction: column;
+    text-shadow: 2px 2px 2px black;
+    cursor: pointer;
+  }
 .flipCard{
   display: flex;
   justify-content: space-around;
@@ -255,13 +276,29 @@ height:10vh;
 .dbs{
 margin-top:-8%;
 }
+.contact,#contact{
+  cursor: pointer;
+}
 /*//responcive //*/
 @media (min-width:1024px){
   .font-div{
     padding:5vh 0px!important;
-   
   }
- 
+  .heading{
+    position: absolute;
+    top:0;
+    HEIGHT:70%;
+  }
+  .sub{
+    position: absolute;
+    top:50%;
+    width: 100%;
+  }
+.icons{
+    position: absolute;
+    top:68.4%;
+    width: 100%;
+  }
 }
 @media(min-width:990px){
   .large > *{
